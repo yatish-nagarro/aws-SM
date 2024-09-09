@@ -51,4 +51,4 @@ jobs:
       # 6. Copy to S3 bucket.
       - name: Copy to S3 Bucket
         run: |
-          aws s3 cp ./dist/fe/* s3://aws-employee-app
+          aws s3 cp ./dist/fe/* aws-employee-app
